@@ -12,6 +12,7 @@
 'sidebar.profile' = '个人资料'
 'sidebar.settings' = '设置'
 'sidebar.plugins' = '插件'
+'sidebar.selector' = '选择比赛'
 
 # Navbar
 'nav.contestInfo' = '比赛信息'
