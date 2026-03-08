@@ -89,6 +89,16 @@
 'result.timeLimit' = '超时'
 'result.runtimeError' = '运行错误'
 'result.pending' = '等待中'
+'result.compiling' = '编译中...'
+'result.running' = '运行中...'
+'result.compilingShort' = '编译中'
+'result.runningShort' = '运行中'
+'result.judged' = '已评测'
+'result.compilationError' = '编译错误'
+'result.systemError' = '系统错误'
+'result.memoryLimit' = '内存超限'
+'result.unknownStatus' = '未知状态'
+'result.unknownVerdict' = '未知结果'
 
 # Problems
 'problems.title' = '题目列表'
@@ -289,6 +299,12 @@
 'overview.contests' = '比赛'
 'overview.contestsDescription' = '即将开始和正在进行的比赛。'
 'overview.noContests' = '暂无比赛。'
+
+# Submissions filters
+'submissions.filters.allProblems' = '全部题目'
+'submissions.filters.allLanguages' = '全部语言'
+'submissions.filters.allStatuses' = '全部状态'
+'submissions.filters.search' = '搜索'
 
 # Homepage
 'homepage.selectContest' = '选择比赛'
