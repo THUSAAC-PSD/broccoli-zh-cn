@@ -74,6 +74,8 @@
 'editor.title' = '代码'
 'editor.run' = '运行'
 'editor.submit' = '提交'
+'editor.upload' = '上传文件'
+'editor.addFile' = '添加文件'
 'editor.toggleFullscreen' = '切换全屏'
 
 # Submission result
@@ -96,9 +98,19 @@
 'result.judged' = '已评测'
 'result.compilationError' = '编译错误'
 'result.systemError' = '系统错误'
+'result.systemMessage' = '系统消息'
 'result.memoryLimit' = '内存超限'
 'result.unknownStatus' = '未知状态'
 'result.unknownVerdict' = '未知结果'
+'result.submitError' = '提交失败，请重试。'
+'result.compileOutput' = '编译输出'
+'result.input' = '输入'
+'result.expectedOutput' = '期望输出'
+'result.stdout' = '你的输出'
+'result.stderr' = '标准错误'
+'result.checkerOutput' = '校验器输出'
+'result.timeValue' = '{value}ms'
+'result.memoryValue' = '{value}MB'
 
 # Problems
 'problems.title' = '题目列表'
@@ -179,6 +191,8 @@
 'auth.usernameTaken' = '用户名已被使用。'
 'auth.passwordMismatch' = '两次输入的密码不一致。'
 'auth.validationError' = '请检查输入后重试。'
+'auth.loginToAsk' = '请登录后提问。'
+'auth.loginToViewSubmissions' = '请登录后查看提交记录。'
 
 # Sidebar (additional)
 'sidebar.guest' = '游客'
@@ -272,6 +286,8 @@
 'admin.field.title' = '标题'
 'admin.field.description' = '描述'
 'admin.field.content' = '内容（Markdown）'
+'admin.field.activateTime' = '激活时间'
+'admin.field.deactivateTime' = '失效时间'
 'admin.field.startTime' = '开始时间'
 'admin.field.endTime' = '结束时间'
 'admin.field.isPublic' = '公开'
@@ -283,6 +299,23 @@
 'admin.field.showTestDetails' = '显示测试详情'
 'admin.field.options' = '选项'
 'admin.field.createdAt' = '创建时间'
+'admin.loading' = '加载中...'
+
+# Test Cases (admin)
+'admin.manageTestCases' = '管理测试点'
+'admin.testCases.title' = '测试点'
+'admin.testCases.empty' = '暂无测试点，请先创建。'
+'admin.testCases.create' = '创建测试点'
+'admin.testCases.createDesc' = '为此题目添加一个新测试点。'
+'admin.testCases.edit' = '编辑测试点'
+'admin.testCases.sample' = '示例'
+'admin.testCases.deleteError' = '删除测试点失败，可能已有评测结果关联。'
+'admin.testCases.field.input' = '输入'
+'admin.testCases.field.expectedOutput' = '期望输出'
+'admin.testCases.field.score' = '分值'
+'admin.testCases.field.sample' = '示例'
+'admin.testCases.field.description' = '描述'
+'admin.testCases.field.isSample' = '示例测试点'
 
 # Overview
 'overview.title' = '总览'
@@ -307,8 +340,41 @@
 'submissions.filters.search' = '搜索'
 
 # Homepage
+'homepage.title' = 'Broccoli 在线评测系统'
+'homepage.welcome' = '欢迎来到 Broccoli'
+'homepage.welcomeDesc' = '一个面向编程竞赛的在线评测平台。登录后可查看你的比赛并开始解题。'
 'homepage.selectContest' = '选择比赛'
 'homepage.selectContestDesc' = '选择一个比赛以查看其详情和题目。'
+'homepage.noContests' = '当前没有可参加的比赛，请稍后再试或联系管理员。'
+
+# Contest Q&A
+'contest.qa.empty' = '暂无提问。'
+
+# Toast notifications
+'toast.contest.created' = '比赛创建成功。'
+'toast.contest.updated' = '比赛更新成功。'
+'toast.contest.deleted' = '比赛删除成功。'
+'toast.contest.deleteError' = '删除比赛失败。'
+'toast.problem.created' = '题目创建成功。'
+'toast.problem.updated' = '题目更新成功。'
+'toast.problem.deleted' = '题目删除成功。'
+'toast.problem.deleteError' = '删除题目失败。'
+'toast.problem.added' = '题目已添加到比赛。'
+'toast.problem.addError' = '向比赛添加题目失败。'
+'toast.problem.removed' = '题目已从比赛移除。'
+'toast.problem.removeError' = '从比赛移除题目失败。'
+'toast.testCase.created' = '测试点创建成功。'
+'toast.testCase.updated' = '测试点更新成功。'
+'toast.testCase.deleted' = '测试点删除成功。'
+'toast.testCase.deleteError' = '删除测试点失败。'
+'toast.participant.added' = '参赛者添加成功。'
+'toast.participant.addError' = '添加参赛者失败。'
+'toast.participant.removed' = '参赛者移除成功。'
+'toast.participant.removeError' = '移除参赛者失败。'
+'toast.participant.bulkSuccess' = '批量加入完成。'
+'toast.participant.bulkError' = '批量加入失败。'
+'toast.submission.submitted' = '代码提交成功。'
+'toast.submission.error' = '提交代码失败，请重试。'
 
 # Sidebar (contest-specific)
 'sidebar.contestshomepage' = '比赛主页'
