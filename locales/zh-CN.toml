@@ -149,6 +149,7 @@
 'contests.notFound' = '未找到比赛。'
 'contests.loadError' = '加载比赛详情失败。'
 'contests.loadProblemsError' = '加载比赛题目失败。'
+'contests.problemsAvailableAfterStart' = '比赛开始后将显示题目。'
 'contests.inDays' = '{count} 天后'
 'contests.inHours' = '{count} 小时后'
 'contests.inMinutes' = '{count} 分钟后'
