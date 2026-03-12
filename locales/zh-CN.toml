@@ -142,6 +142,10 @@
 'contests.description' = '描述'
 'contests.noDescription' = '暂无描述。'
 'contests.problems' = '题目'
+'contests.enrollTitle' = '参加比赛'
+'contests.enrollDescription' = '你还没有参加这场比赛，点击立即报名参赛。'
+'contests.enrollAction' = '报名参赛'
+'contests.enrolling' = '报名中...'
 'contests.notFound' = '未找到比赛。'
 'contests.loadError' = '加载比赛详情失败。'
 'contests.loadProblemsError' = '加载比赛题目失败。'
@@ -407,3 +411,7 @@
 
 # Plugin = Notifications
 'plugin.notification.button' = '通知'
+
+# Toast
+'toast.contest.enrolled' = '参加成功。'
+'toast.contest.enrollError' = '参加失败，请稍后重试。'
