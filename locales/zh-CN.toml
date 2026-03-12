@@ -144,8 +144,14 @@
 'contests.problems' = '题目'
 'contests.enrollTitle' = '参加比赛'
 'contests.enrollDescription' = '你还没有参加这场比赛，点击立即报名参赛。'
+'contests.registeredDescription' = '你已成功报名参加此比赛。如有需要，可以取消报名。'
 'contests.enrollAction' = '报名参赛'
 'contests.enrolling' = '报名中...'
+'contests.unregisterAction' = '取消报名'
+'contests.unregistering' = '取消中...'
+'contests.unregisterConfirmTitle' = '取消报名'
+'contests.unregisterConfirmDescription' = '确定要取消参加此比赛吗？如果比赛仍在报名期，你可以稍后重新报名。'
+'contests.unregisterConfirm' = '确认取消报名'
 'contests.notFound' = '未找到比赛。'
 'contests.loadError' = '加载比赛详情失败。'
 'contests.loadProblemsError' = '加载比赛题目失败。'
@@ -422,3 +428,8 @@
 # Toast
 'toast.contest.enrolled' = '参加成功。'
 'toast.contest.enrollError' = '参加失败，请稍后重试。'
+'toast.contest.unregistered' = '取消报名成功。'
+'toast.contest.unregisterError' = '取消报名失败，请稍后重试。'
+
+# Common
+'common.cancel' = '取消'
