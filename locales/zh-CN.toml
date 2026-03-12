@@ -69,6 +69,7 @@
 'problem.downloadSampleFile' = '下载 {file}（{size}）'
 'problem.startCoding' = '开始做题'
 'problem.backToDescription' = '题目描述'
+'problem.edit' = '编辑题目'
 
 # Code editor
 'editor.title' = '代码'
@@ -308,14 +309,14 @@
 'admin.testCases.create' = '创建测试点'
 'admin.testCases.createDesc' = '为此题目添加一个新测试点。'
 'admin.testCases.edit' = '编辑测试点'
-'admin.testCases.sample' = '示例'
+'admin.testCases.sample' = '样例'
 'admin.testCases.deleteError' = '删除测试点失败，可能已有评测结果关联。'
 'admin.testCases.field.input' = '输入'
 'admin.testCases.field.expectedOutput' = '期望输出'
 'admin.testCases.field.score' = '分值'
-'admin.testCases.field.sample' = '示例'
+'admin.testCases.field.sample' = '样例'
 'admin.testCases.field.description' = '描述'
-'admin.testCases.field.isSample' = '示例测试点'
+'admin.testCases.field.isSample' = '作为样例'
 
 # Overview
 'overview.title' = '总览'
