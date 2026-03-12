@@ -302,9 +302,15 @@
 'admin.field.showParticipantsList' = '显示参赛者列表'
 'admin.field.timeLimit' = '时间限制'
 'admin.field.memoryLimit' = '内存限制'
+'admin.field.submissionFormat' = '提交文件格式'
 'admin.field.showTestDetails' = '显示测试详情'
 'admin.field.options' = '选项'
 'admin.field.createdAt' = '创建时间'
+'admin.submissionFormat.language' = '选择语言'
+'admin.submissionFormat.addLanguage' = '添加语言'
+'admin.submissionFormat.filenamePlaceholder' = '例如：solution.cpp'
+'admin.submissionFormat.addFile' = '添加文件'
+'admin.submissionFormat.empty' = '暂未配置任何语言。'
 'admin.loading' = '加载中...'
 
 # Test Cases (admin)
