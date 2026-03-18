@@ -110,8 +110,11 @@
 'result.stdout' = '你的输出'
 'result.stderr' = '标准错误'
 'result.checkerOutput' = '校验器输出'
+'result.scoreLabel' = '分数'
+'result.pointsUnit' = '分'
 'result.timeValue' = '{value}ms'
 'result.memoryValue' = '{value}MB'
+'result.score' = '分数：{value}'
 'result.latestOverviewTitle' = '最近提交概览'
 'result.latestOverviewEmpty' = '暂无提交记录。'
 
