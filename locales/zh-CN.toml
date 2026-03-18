@@ -112,6 +112,8 @@
 'result.checkerOutput' = '校验器输出'
 'result.timeValue' = '{value}ms'
 'result.memoryValue' = '{value}MB'
+'result.latestOverviewTitle' = '最近提交概览'
+'result.latestOverviewEmpty' = '暂无提交记录。'
 
 # Problems
 'problems.title' = '题目列表'
