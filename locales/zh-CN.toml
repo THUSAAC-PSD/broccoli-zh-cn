@@ -79,6 +79,19 @@
 'editor.addFile' = '添加文件'
 'editor.toggleFullscreen' = '切换全屏'
 
+# Code editor — custom test cases
+'editor.customInput' = '自定义输入'
+'editor.inputPlaceholder' = '程序的输入数据...'
+'editor.expectedOutput' = '期望输出'
+'editor.expectedOutputPlaceholder' = '留空则仅显示输出结果'
+'editor.optional' = '可选'
+'editor.running' = '运行中...'
+'editor.executed' = '已执行'
+'editor.noOutput' = '无输出'
+'editor.emptyOutput' = '（空）'
+'editor.compilationError' = '编译错误'
+'editor.compilerOutput' = '编译器输出'
+
 # Submission result
 'result.title' = '结果'
 'result.submitPrompt' = '提交代码以查看结果'
@@ -416,6 +429,7 @@
 'toast.participant.bulkSuccess' = '批量加入完成。'
 'toast.participant.bulkError' = '批量加入失败。'
 'toast.submission.submitted' = '代码提交成功。'
+'toast.submission.running' = '正在运行代码...'
 'toast.submission.error' = '提交代码失败，请重试。'
 
 # Sidebar (contest-specific)
